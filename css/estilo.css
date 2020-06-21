@@ -1,0 +1,273 @@
+*{padding: 0;margin: 0;}
+
+html {display: block;}
+
+body {	font-family: 'Sacramento', cursive;
+		font-size: 40px;
+	}
+
+
+.header {background-color: #3c3c3c; height: 25vh;}
+
+.ptitulo {
+	font-size: 10vh;
+	text-align: center;
+	padding-top: 2vh;
+}
+
+nav ul {font-family: 'Poppins', sans-serif;
+		text-align: center;
+		display: flex; 
+		flex-flow: wrap;
+		font-size: 3vh;
+		width: 33,3%; 
+		justify-content: center;}
+
+nav ul li {
+	display: inline-block;
+	width: 20%;
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+   }
+
+li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+nav ul li:hover {
+	background-color: #000000;
+	border-radius: 10px;
+}
+
+.contenedor {
+	display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+.item2 {
+	width: 24%;
+	height: 30%;
+    text-align: left;
+    font-size: 30px;
+    margin: 1%;
+}
+
+.item1 {
+	width: 70%;
+	height: 30%;
+	margin:1%;
+    text-align: left;
+    font-size: 30px;
+    border-color: black;
+    border-style: solid;
+}
+
+.item {
+	width: 70%;
+	height: 30%;
+	margin:1%;
+    text-align: left;
+    font-size: 30px;
+    border-color: black;
+    border-style: solid;
+}
+
+.item3 {
+	width: 100%;
+	text-align: center;
+}
+.psecret {
+	text-align: center;
+}
+
+.item4 {
+	width: 33%;
+	height: 30%;
+    text-align: center;
+    font-size: 30px;
+    margin: 0,5%;
+}
+
+.item5 {
+	margin-top: 9%; 
+	width: 33%;
+	height: 30%;
+    text-align: center;
+    font-size: 30px;
+    margin: 0,5%;
+}
+
+.item6 {
+	margin-top: 4px; 
+	width: 33%;
+	height: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.item7 {
+	margin-top: 10%; 
+	width: 35%;
+	height: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.item8 {
+	width: 30%;
+	height: 30%;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 2.5%;
+}
+
+.item9 {
+	width: 30%;
+	height: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.item10 {
+	margin-top: 8%;
+	width: 24%;
+	height: 30%;
+    text-align: left;
+    font-size: 30px;
+}
+.plibros {
+	text-align: center;
+}
+
+.item11 {
+	width: 33%;
+	height: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.item12 {
+	width: 33%;
+	height: 30%;
+    text-align: center;
+    font-size: 30px;
+ }
+
+ .item13 {
+ 	width: 33%;
+	height: 30%;
+    text-align: center;
+    font-size: 30px;
+ }
+
+.item14 {
+	width: 33%;
+	height: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+	width: 100%;
+}
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	font-style: italic;
+	font-size: 20px;
+}
+div p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px; 
+	text-align: left; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.divperfil {
+	width: 100%;
+}
+
+.divperfil2 {
+	width: 100%
+}
+
+.divperfil3 {
+	width: 100%;
+}
+
+footer {
+	padding:10px;
+	background-color: #3c3c3c; 
+	text-align: center;
+	display: flex;
+	flex-flow: wrap;
+	height: 10vh;
+}
+
+.divfooter {width: 50%;}
+.footerimg {width: 14vh;}
+.footerimg1 {width: 10vh;}
+.pfooter {text-align: center;}
+
+
+
+@media (max-width: 800px){
+	header {width: 100%;}
+	.ptitulo {font-size: 80px;}
+	nav ul li {width: 100%;
+				font-size: 60%;}
+	li a {width: 54%;}
+	.item {width: 100%;}
+	.item1 {width: 60%;}
+	.item2 {width: 35%;}
+	.item10 {display: none;}
+	.item13 {display: none;}
+	.item14 {display: none;}
+	.item7 {display: none;}
+	.item11 {display: none;}
+	.item6 {display: none;}
+	.item8 {width: 48%;}
+	.item9 {width: 48%;}
+	.item4 {width: 48%;}
+	.item5 {width:48%;}
+	.item12 {width: 48%;}
+}
+
+
+@media (max-width:480px) {
+	header {width: 100%;}
+	.ptitulo {font-size: 50px;}
+	nav ul li {width: 100%;
+				font-size: 20px;}
+	li a {width: 50%;}
+	nav ul li:first-child { display: none;}
+	.item2 {width: 100%;}
+	.item1 {width: 100%;}
+	.item10 {width: 100%;}
+	footer {width: 100%;
+		height: 6vh;}
+	.divfooter {width: 50%;}
+	.footerimg {width: 33%;}
+	.footerimg1 {width: 23%;}
+	.item7 {display: none;}
+	.item11 {display: none;}
+	.item8 {width: 48%;}
+	.item9 {width: 48%;}
+	.item12 {width: 48%;}
+	.item6 {display: none;}
+	.item4 {width: 48%;}
+	.item13 {display: none;}
+	.item14 {display: none;}
+	.item5 {width:48%;}
+}
