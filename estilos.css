@@ -1,0 +1,14 @@
+@media (min-width: @screen-md-min) {
+
+}
+
+
+@media (max-width:480px) { 
+	div nav a:nth-child(4) {
+		display: none;
+	}
+
+	.mb-4 {width: 50%;
+		padding: 0;
+		justify-content: center;}
+}
